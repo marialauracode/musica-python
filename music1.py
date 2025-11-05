@@ -26,13 +26,14 @@ def print_lyrics():
     # Segundo FOR: percorre cada letra de cada linha
     # sys.stdout.write(char): imprime cada letra de forma contínua
     # sys.stdout.flush(): garante que cada caractere apareça no terminal no mesmo instante - sem armazenar no buffer
+    # time.sleep(0.06): controla a velocidade da digitação
 
     for i, line in enumerate(lyrics): 
         for char in line:
             sys.stdout.write(char)
             sys.stdout.flush()
             time.sleep(0.06)
-        print()
-        time.sleep(delays[i])
+        print() # imprime uma linha vazia logo depois da execução da linha anterior
+        time.sleep(delays[i]) # há uma pausa de cada índice conforme a lista delays
 
 print_lyrics()
