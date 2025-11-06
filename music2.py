@@ -21,7 +21,7 @@ def print_lyrics():
         "Que a luz dos olhos meus precisa se casar"
     ]
 
-    delays = [0.6, 0.9, 0.8, 1.3, 0.2, 0.7, 1.5, 2.5, 0.6, 1.3, 1.0, 1.0, 1.2, 0.5, 0.6, 1.0, 2.0]
+    delays = [0.02, 0.02, 0.02, 0.5, 0.02, 0.02, 0.03, 0.5, 1.9, 0.5, 0.5, 0.4, 0.5, 0.5, 0.6, 0.5, 0.5]
 
     print("Pela Luz dos Olhos Teus ♥ \n")
     time.sleep(1.2)
@@ -30,7 +30,7 @@ def print_lyrics():
         for char in line:
             sys.stdout.write(char)
             sys.stdout.flush()
-            time.sleep(0.06)
+            time.sleep(0.09)
         print()
         time.sleep(delays[i])
 
