@@ -3,7 +3,7 @@ import sys # Biblioteca que controla a saída de caracteres no terminal
 
 def print_lyrics():
     lyrics = [
-        " Maybe it's 6:45", 
+        "Maybe it's 6:45", 
         "Maybe I'm barely alive",
         "Maybe you've taken my shit for the last time, yeah",
         "Maybe I know that I'm drunk",
@@ -19,7 +19,7 @@ def print_lyrics():
     print("Girls Like you: \n")
     time.sleep(1.2)
 
-    for i, line in enumerate(lyrics): 
+    for i, line in enumerate(lyrics):  
         for char in line:
             sys.stdout.write(char)
             sys.stdout.flush()
