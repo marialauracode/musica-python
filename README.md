@@ -1,5 +1,6 @@
 ## 🎥 Demonstração
-Assista à execução da música "Girls Like You":  
+O vídeo da execução da música "Girls Like You" está disponível neste repositório.  
+Para assistir, baixe o arquivo clicando em **"View raw"** no link abaixo:   
 [Ver vídeo no repositório](./girls_like_you.mp4)
 
 
