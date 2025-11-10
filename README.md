@@ -1,6 +1,6 @@
-🎥 Demonstração
+## 🎥 Demonstração
 Assista à execução da música "Girls Like You":  
-[📹 Ver vídeo no repositório](./girls_like_you.mp4)
+[Ver vídeo no repositório](./girls_like_you.mp4)
 
 
 ## 📂 Sobre o Projeto
